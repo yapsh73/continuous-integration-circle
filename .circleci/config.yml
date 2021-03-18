@@ -39,10 +39,6 @@ jobs:
           command: echo "The build is finished!"
 
       - run:
-          name: run html proofer
-          command: REPLACE-ME-WITH-SCRIPT
-
-      - run:
           name: notify test is finished
           command: echo "The test is completed!"
 
